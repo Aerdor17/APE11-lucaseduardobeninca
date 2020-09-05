@@ -23,14 +23,23 @@
 				a análise do código fonte e uma avaliação melhor da evolução de seu projeto.
 				
 * 4. Por que utilizar Git como controle de versionamento?
-              		 **R:** Por que com o git você pode armazenar todas as versões de seu código fonte e suas respectivas alterações ao longo do tempo, 
-			sendo assim você pode comprar as versões lado a lada e analisar todas as alterações feitas, em cada versão, permitindo assim que você tenha um controle absoluto 
+       	 **R:** Por que com o git você pode armazenar todas as versões de seu código fonte e suas respectivas alterações ao longo do tempo, 
+		sendo assim você pode comprar as versões lado a lada e analisar todas as alterações feitas, em cada versão, permitindo assim que você tenha um controle absoluto 
 	sobre tudo o que foi modificado no seu projeto, o Git também possibilita o uso do sistema distribuído de controle de versão, esse tipo de sistema utiliza a parte final dos arquivos, 
-		   	clonando todo o repositório, assim se um dos servidores colaborativos, cair, você pode copiar a base de um cliente 
-		 	facilmente para restaurar a estação principal, onde cada clone se torna um backup de fato.
+	   	clonando todo o repositório, assim se um dos servidores colaborativos, cair, você pode copiar a base de um cliente 
+	 	facilmente para restaurar a estação principal, onde cada clone se torna um backup de fato.
 	
 * 5. Qual a importância da utilização do controle de versionamento no desenvolvimento de software? **
-			 R: O versionamento de software adequado previne que versionamento desenfreado e sem auditoria caia no “dependency hell” traduzindo para o português o inferno das dependências
+	 R: O versionamento de software adequado previne que versionamento desenfreado e sem auditoria caia no “dependency hell” traduzindo para o português o inferno das dependências
 	e porque é importante evitar isso, pois você pode se deparar com um bloqueio de versão, que ocorre quando uma versão te impede ser seguir em frente com o seu projeto de forma segura,
-	quando as dependências amarradas a uma versão X não da suporte as novas versões e você se ve obrigado a lançar novas versões das dependências também. 
+	quando as dependências amarradas a uma versão X não da suporte as novas versões e você se ve obrigado a lançar novas versões das dependências também.
+
+* 6. Cite pelo menos 3 ferramentes de controle de versionamento e faça um breve detalhamento sobre cada uma delas?**
+	 **R:** Git: é um versionador open-source utilizado em todo mundo, que permite que criemos, versões de todas as alterações do nosso código do projeto, e permite que se assim quisermos
+	possamos voltar para qualquer ponto desejado, parar relembrar como estava o código naquela determinada data.
+        **TursoiseSVN:** é um controlador de versionamento de código fonte open-source para windows em servidores de controle de versão Apache™ Subversion ele centraliza e guarda todos os arquivos em um servidor central,
+	que é como se fosse um servidor de arquivos comum, exceto pelo fato dele se lembrar de toda alteração que foi feita no arquivo.
+                      	 **Mercurial:** é um versionador de código fonte, open-source desenvolvido, para projetos maiores, fugindo dos web-designers e desenvolvedores independentes.
+
+
 

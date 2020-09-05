@@ -15,7 +15,19 @@
 			quando uma atualização de um aplicativo é feita na Play Store, na relesse quase sempre tem um número de versão como 1.0.0,
 			mas como isso é feito? simples utilizando uma ferramenta de versionamento, como o Git ou o turtoiseSVN, 
 			com eles cada vez que um pedaço do código fonte é alterado por algum desenvolvedor uma nova versão do projeto é criada.
-	
+
+* 3. Quais as vantagens do Git?
+          		 **R:** A partir do momento em que você começa a utilizar o git  nos seus projetos particulares ou com o GitHub nos projetos de sua empresa,
+				você começa a ter o controle de todo o código fonte gerado por você em um projeto individual ou pelos membros de sua equipe, em um projeto em conjunto, ou seja,
+				você consegue voltar no tempo e restaurar uma versão do código de meses atrás, sem muito esforço, possibilitando assim,
+				a análise do código fonte e uma avaliação melhor da evolução de seu projeto.
+				
+* 4. Por que utilizar Git como controle de versionamento?
+              		 **R:** Por que com o git você pode armazenar todas as versões de seu código fonte e suas respectivas alterações ao longo do tempo, 
+			sendo assim você pode comprar as versões lado a lada e analisar todas as alterações feitas, em cada versão, permitindo assim que você tenha um controle absoluto 
+	sobre tudo o que foi modificado no seu projeto, o Git também possibilita o uso do sistema distribuído de controle de versão, esse tipo de sistema utiliza a parte final dos arquivos, 
+		   	clonando todo o repositório, assim se um dos servidores colaborativos, cair, você pode copiar a base de um cliente 
+		 	facilmente para restaurar a estação principal, onde cada clone se torna um backup de fato.
 	
  
 

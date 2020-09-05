@@ -3,15 +3,63 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title></title>	
+    <link rel="stylesheet" href="style.css">
 	
 </head>
 
 <body>
-	<header>
-	</header>
-	<main>
-		
-	</main>
+    <header>
+        <div>
+            <h1></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="comflow.html">COMANDOS GIT COM FLOW</a></li>
+                    <li><a href="semflow.html">COMANDOS GIT SEM FLOW</a></li>
+                </ul>
+            </nav>
+        </div>
+       
+    </header>
+    <main>
+        <table border="1">
+            <tr>
+                <td><strong>git flow feature start MYFEATURE</strong> - Esse comando cria um novo branch da funcionalidade baseado no 'develop' e alterna para ele</td>
+            </tr>
+            <tr>
+                <td><strong>git flow feature finish MYFEATURE</strong> - Esse comando faz o seguinte ,Mescla MYFEATURE no 'develop' , emove o branch da funcionalidade, Volta para o branch 'develop'</td>
+            </tr>
+            <tr>
+                <td><strong>git flow feature publish MYFEATURE</strong> - Você está desenvolvendo uma funcionalidade colaborativamente?
+Publique uma funcionalidade para o servidor remoto, assim ela pode ser utilizada por outros usuários</td>
+            </tr>
+            <tr>
+                <td><strong>git flow feature pull MYFEATURE</strong> - Obtenha uma funcionalidade publicada por outro usuário e acompanhe as alterações remotas.</td>
+            </tr>
+            <tr>
+                <td><strong>git flow release</strong> - Ele
+cria um branch da versão baseado no branch 'develop'.</td>
+            </tr>
+            <tr>
+                <td><strong>git flow release start RELEASE [BASE]</strong> - Você pode opcionalmente fornecer um hash sha-1 do commit [BASE] de onde começar a versão. O commit precisa estar no branch 'develop'</td>
+            </tr>
+            <tr>
+                <td><strong>git flow release publish RELEASE</strong> - publica o branch da versão depois de criá-lo, para permitir commits por outros desenvolvedores. </td>
+            </tr>
+            <tr>
+                <td><strong>git flow release finish RELEASE</strong> -Mescla o branch da versão no 'master', Etiqueta a versão com seu nome, Mescla o branch da versão de volta no 'develop', Remove o branch da versão</td>
+            </tr>
+            <tr>
+                <td><strong>git flow release track RELEASE</strong> -  acompanhar uma versão remota com o comando</td>
+            </tr>
+            <tr>
+                <td><strong>git flow hotfix start RELEASE</strong> - inicia um git hotfix como os outros comandos do git flow</td>
+            </tr>
+            <tr>
+                <td><strong>git flow hotfix finish RELEASE</strong> - Finaliza um hotfix ele é mesclado tanto no develop quanto no master. Além disso, o merge no master é etiquetado.</td>
+            </tr>                
+        </table>
+    </main>    
 </body>
 </html>

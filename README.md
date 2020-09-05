@@ -29,5 +29,8 @@
 		   	clonando todo o repositório, assim se um dos servidores colaborativos, cair, você pode copiar a base de um cliente 
 		 	facilmente para restaurar a estação principal, onde cada clone se torna um backup de fato.
 	
- 
+* 5. Qual a importância da utilização do controle de versionamento no desenvolvimento de software? **
+			 R: O versionamento de software adequado previne que versionamento desenfreado e sem auditoria caia no “dependency hell” traduzindo para o português o inferno das dependências
+	e porque é importante evitar isso, pois você pode se deparar com um bloqueio de versão, que ocorre quando uma versão te impede ser seguir em frente com o seu projeto de forma segura,
+	quando as dependências amarradas a uma versão X não da suporte as novas versões e você se ve obrigado a lançar novas versões das dependências também. 
 
